@@ -1,0 +1,54 @@
+
+{% extends "layaout.html"%}
+
+
+{% block content %}
+
+<h2>Equipo del Proyecto</h2>
+
+<div class="equipo">
+
+    <div class="miembro">
+        <img src="{{ url_for('static', filename='photos/GIOVANNY ALEJANDRO PARDO.jpg') }}" alt="GIOVANNY ALEJANDRO PARDO">
+        <h3>GIOVANNY ALEJANDRO PARDO</h3>
+        <p>Rol: Desarrollador Principal</p>
+        <p>Soy una persona que me gusta mucho la programación, <br> 
+            los video juegos, el rock en español, el cine y el anime, <br> 
+            practico el CrossFit y tengo estudios en técnico en mantenimiento electrónico, <br>
+            tecnólogo en análisis y desarrollo de medios de información del Sena.</p>
+    </div>
+
+    <div class="miembro">
+        <img src="{{ url_for('static', filename='photos/Diego F Vasquez P.jpg') }}" alt="DIEGO FERNANDO VASQUEZ PLAZA">        
+        <h3>DIEGO FERNANDO VASQUEZ PLAZA</h3>
+        <p>Rol: Data Scientist/ Diseñador UX/UI</p>
+        <p>Estudiante de Ingeniería de sistemas, Amante de la tecnología.</p>
+    </div>
+
+    <div class="miembro">
+        <img src="{{ url_for('static', filename='photos/Angie KT.jpg') }}" alt="ANGIE KATHERINE ACHICANOY GUEVARA">
+        <h3>ANGIE KATHERINE ACHICANOY GUEVARA</h3>
+        <p>Rol: Community Manager</p>
+        <p>Estudiante de ingeniería de sistemas. Responsable de comunidades de internet, virtuales.</p>
+    </div>
+
+    <!-- Repite el bloque para cada miembro del equipo -->
+
+</div>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
